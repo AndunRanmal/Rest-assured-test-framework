@@ -1,0 +1,683 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "data": [
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_SELECT_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:41:23Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Select Package",
+            "description": "Select Package",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_FIRST_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:41:11Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "AMP First Home Loan",
+            "description": "AMP First Home Loan",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.amp.com.au/forms/loans/amp-first-home-loan-enquiry-form",
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_LAND_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:41:08Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Land Loan",
+            "description": "Land Loan",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.amp.com.au/home-loans/build/land-loan",
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_CONSTRUCTION_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:41:07Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Construction Loan",
+            "description": "Construction Loan",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.amp.com.au/home-loans/build/construction-loan",
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_PROFESSIONAL_PACKAGE_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:41:07Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Professional Package",
+            "description": "Professional Package",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.amp.com.au/home-loans/loans/professional-package-home-loan",
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_BASIC_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:40:53Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Basic Package",
+            "description": "Basic Package",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.amp.com.au/home-loans/loans/basic-package-home-loan",
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "AMP_ESSENTIAL_HL",
+            "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+            "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+            "lastUpdated": "2021-06-29T07:40:49Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "AMP Essential Home Loan",
+            "description": "AMP Essential Home Loan",
+            "brand": "AMP Bank",
+            "brandName": "AMP Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.amp.com.au/home-loans/loans/amp-essential-home-loan",
+              "termsUri": "https://www.amp.com.au/bankterms",
+              "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "9a2f158b-626d-4f58-a0cd-3cd50bcbfe13",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "STGHLPortfolioLoanFixed",
+            "lastUpdated": "2021-07-19T10:57:06Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Fixed Portfolio Loan",
+            "description": "St.George?s Portfolio Loan is an ongoing line of credit that lets you access funds to make investments for your future, such as to purchase an investment property or share portfolio.",
+            "brand": "St. George Bank",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/portfolio-loan"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "9a2f158b-626d-4f58-a0cd-3cd50bcbfe13",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "BSAHLPortfolioLoanVariable",
+            "lastUpdated": "2021-07-19T08:51:06Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Variable Portfolio Loan",
+            "description": "Bank of South Australia?s Portfolio Loan is an ongoing line of credit that lets you access funds to make investments for your future, such as to purchase an investment property or share portfolio.",
+            "brand": "BankSA",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.banksa.com.au/personal/home-loans/our-home-loans/portfolio-loan"
+            }
+          }
+        },
+        {
+          "summary": {
+            "countryCode": "AUS",
+            "bankId": "9a2f158b-626d-4f58-a0cd-3cd50bcbfe13",
+            "productCategory": "RESIDENTIAL_MORTGAGES"
+          },
+          "detail": {
+            "productId": "BSAHLPortfolioLoanFixed",
+            "lastUpdated": "2021-07-19T08:51:06Z",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Fixed Portfolio Loan",
+            "description": "Bank of South Australia?s Portfolio Loan is an ongoing line of credit that lets you access funds to make investments for your future, such as to purchase an investment property or share portfolio.",
+            "brand": "BankSA",
+            "isTailored": false,
+            "additionalInformation": {
+              "overviewUri": "https://www.banksa.com.au/personal/home-loans/our-home-loans/portfolio-loan"
+            }
+          }
+        }
+      ],
+      "paging": {
+        "totalRecords": 378,
+        "pageSize": 10,
+        "pageNumber": 1
+      },
+      "status": {
+        "code": "000000",
+        "message": "Request processed successfully"
+      }
+    }
+  ],
+  "required": [
+    "data",
+    "paging",
+    "status"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "summary": {
+              "countryCode": "AUS",
+              "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+              "productCategory": "RESIDENTIAL_MORTGAGES"
+            },
+            "detail": {
+              "productId": "AMP_SELECT_HL",
+              "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+              "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+              "lastUpdated": "2021-06-29T07:41:23Z",
+              "productCategory": "RESIDENTIAL_MORTGAGES",
+              "name": "Select Package",
+              "description": "Select Package",
+              "brand": "AMP Bank",
+              "brandName": "AMP Bank",
+              "isTailored": false,
+              "additionalInformation": {
+                "termsUri": "https://www.amp.com.au/bankterms",
+                "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+              }
+            }
+          },
+          {
+            "summary": {
+              "countryCode": "AUS",
+              "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+              "productCategory": "RESIDENTIAL_MORTGAGES"
+            },
+            "detail": {
+              "productId": "AMP_FIRST_HL",
+              "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+              "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+              "lastUpdated": "2021-06-29T07:41:11Z",
+              "productCategory": "RESIDENTIAL_MORTGAGES",
+              "name": "AMP First Home Loan",
+              "description": "AMP First Home Loan",
+              "brand": "AMP Bank",
+              "brandName": "AMP Bank",
+              "isTailored": false,
+              "additionalInformation": {
+                "overviewUri": "https://www.amp.com.au/forms/loans/amp-first-home-loan-enquiry-form",
+                "termsUri": "https://www.amp.com.au/bankterms",
+                "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+              }
+            }
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "summary": {
+                  "countryCode": "AUS",
+                  "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+                  "productCategory": "RESIDENTIAL_MORTGAGES"
+                },
+                "detail": {
+                  "productId": "AMP_SELECT_HL",
+                  "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+                  "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+                  "lastUpdated": "2021-06-29T07:41:23Z",
+                  "productCategory": "RESIDENTIAL_MORTGAGES",
+                  "name": "Select Package",
+                  "description": "Select Package",
+                  "brand": "AMP Bank",
+                  "brandName": "AMP Bank",
+                  "isTailored": false,
+                  "additionalInformation": {
+                    "termsUri": "https://www.amp.com.au/bankterms",
+                    "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+                  }
+                }
+              }
+            ],
+            "required": [
+              "summary",
+              "detail"
+            ],
+            "properties": {
+              "summary": {
+                "$id": "#/properties/data/items/anyOf/0/properties/summary",
+                "type": "object",
+                "title": "The summary schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "countryCode": "AUS",
+                    "bankId": "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4",
+                    "productCategory": "RESIDENTIAL_MORTGAGES"
+                  }
+                ],
+                "required": [
+                  "countryCode",
+                  "bankId",
+                  "productCategory"
+                ],
+                "properties": {
+                  "countryCode": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/summary/properties/countryCode",
+                    "type": "string",
+                    "title": "The countryCode schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "AUS"
+                    ]
+                  },
+                  "bankId": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/summary/properties/bankId",
+                    "type": "string",
+                    "title": "The bankId schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "48dcd55e-d0c7-425c-9b88-7ea95b4ebcd4"
+                    ]
+                  },
+                  "productCategory": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/summary/properties/productCategory",
+                    "type": "string",
+                    "title": "The productCategory schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "RESIDENTIAL_MORTGAGES"
+                    ]
+                  }
+                },
+                "additionalProperties": true
+              },
+              "detail": {
+                "$id": "#/properties/data/items/anyOf/0/properties/detail",
+                "type": "object",
+                "title": "The detail schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "productId": "AMP_SELECT_HL",
+                    "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+                    "effectiveTo": "9999-12-30T13:00:00.000+11:00",
+                    "lastUpdated": "2021-06-29T07:41:23Z",
+                    "productCategory": "RESIDENTIAL_MORTGAGES",
+                    "name": "Select Package",
+                    "description": "Select Package",
+                    "brand": "AMP Bank",
+                    "brandName": "AMP Bank",
+                    "isTailored": false,
+                    "additionalInformation": {
+                      "termsUri": "https://www.amp.com.au/bankterms",
+                      "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+                    }
+                  }
+                ],
+                "required": [
+                  "productId",
+                  "effectiveFrom",
+                  "effectiveTo",
+                  "lastUpdated",
+                  "productCategory",
+                  "name",
+                  "description",
+                  "brand",
+                  "brandName",
+                  "isTailored",
+                  "additionalInformation"
+                ],
+                "properties": {
+                  "productId": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/productId",
+                    "type": "string",
+                    "title": "The productId schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "AMP_SELECT_HL"
+                    ]
+                  },
+                  "effectiveFrom": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/effectiveFrom",
+                    "type": "string",
+                    "title": "The effectiveFrom schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "2021-07-01T00:00:00.000+10:00"
+                    ]
+                  },
+                  "effectiveTo": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/effectiveTo",
+                    "type": "string",
+                    "title": "The effectiveTo schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "9999-12-30T13:00:00.000+11:00"
+                    ]
+                  },
+                  "lastUpdated": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/lastUpdated",
+                    "type": "string",
+                    "title": "The lastUpdated schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "2021-06-29T07:41:23Z"
+                    ]
+                  },
+                  "productCategory": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/productCategory",
+                    "type": "string",
+                    "title": "The productCategory schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "RESIDENTIAL_MORTGAGES"
+                    ]
+                  },
+                  "name": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/name",
+                    "type": "string",
+                    "title": "The name schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "Select Package"
+                    ]
+                  },
+                  "description": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/description",
+                    "type": "string",
+                    "title": "The description schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "Select Package"
+                    ]
+                  },
+                  "brand": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/brand",
+                    "type": "string",
+                    "title": "The brand schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "AMP Bank"
+                    ]
+                  },
+                  "brandName": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/brandName",
+                    "type": "string",
+                    "title": "The brandName schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "AMP Bank"
+                    ]
+                  },
+                  "isTailored": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/isTailored",
+                    "type": "boolean",
+                    "title": "The isTailored schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": false,
+                    "examples": [
+                      false
+                    ]
+                  },
+                  "additionalInformation": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/additionalInformation",
+                    "type": "object",
+                    "title": "The additionalInformation schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                      {
+                        "termsUri": "https://www.amp.com.au/bankterms",
+                        "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+                      }
+                    ],
+                    "required": [
+                      "termsUri",
+                      "feesAndPricingUri"
+                    ],
+                    "properties": {
+                      "termsUri": {
+                        "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/additionalInformation/properties/termsUri",
+                        "type": "string",
+                        "title": "The termsUri schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "https://www.amp.com.au/bankterms"
+                        ]
+                      },
+                      "feesAndPricingUri": {
+                        "$id": "#/properties/data/items/anyOf/0/properties/detail/properties/additionalInformation/properties/feesAndPricingUri",
+                        "type": "string",
+                        "title": "The feesAndPricingUri schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "https://www.amp.com.au/content/dam/amp/digitalhub/common/Documents/HomeLoans/Forms/308006_Home_Loan_Fees_and_Charges_Guide.pdf"
+                        ]
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "paging": {
+      "$id": "#/properties/paging",
+      "type": "object",
+      "title": "The paging schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "totalRecords": 378,
+          "pageSize": 10,
+          "pageNumber": 1
+        }
+      ],
+      "required": [
+        "totalRecords",
+        "pageSize",
+        "pageNumber"
+      ],
+      "properties": {
+        "totalRecords": {
+          "$id": "#/properties/paging/properties/totalRecords",
+          "type": "integer",
+          "title": "The totalRecords schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            378
+          ]
+        },
+        "pageSize": {
+          "$id": "#/properties/paging/properties/pageSize",
+          "type": "integer",
+          "title": "The pageSize schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            10
+          ]
+        },
+        "pageNumber": {
+          "$id": "#/properties/paging/properties/pageNumber",
+          "type": "integer",
+          "title": "The pageNumber schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "object",
+      "title": "The status schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "code": "000000",
+          "message": "Request processed successfully"
+        }
+      ],
+      "required": [
+        "code",
+        "message"
+      ],
+      "properties": {
+        "code": {
+          "$id": "#/properties/status/properties/code",
+          "type": "string",
+          "title": "The code schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "000000"
+          ]
+        },
+        "message": {
+          "$id": "#/properties/status/properties/message",
+          "type": "string",
+          "title": "The message schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Request processed successfully"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

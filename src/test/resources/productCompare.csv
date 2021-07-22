@@ -1,0 +1,2 @@
+bankId,bankName,productId,accountName,eligbilityAge,accountFee,productUrl,termsAndCondition,aprRate,aprRateType,monthlyRepaymentAmount,totalCostOfCredit,totalRepaymentAmount
+e7df9035-ef15-488c-8b48-6cd0f9bde9d6,Barclays Bank PLC,BBLT,BarclayLoan,18.0,0.0,http://www.barclays.co.uk/business-banking/borrow/loans,http://www.barclays.co.uk/ImportantInformation/Termsandconditions/P1242575350746,9.9,Fixed,439.35,272.16,5272.2

@@ -1,0 +1,70 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.8.10 built on Monday Dec 12, 2016 at 19:07:48 GMT
+---- Dump Properties ---
+Dump file: ajcore.20210722.123823.190.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+sun.desktop=windows
+awt.toolkit=sun.awt.windows.WToolkit
+java.specification.version=11
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\testng\lib\testng-rt.jar;C:\Users\akannangar\Desktop\git\101_digital_api\target\test-classes;C:\Users\akannangar\Desktop\git\101_digital_api\target\classes;C:\Users\akannangar\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\akannangar\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\akannangar\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\akannangar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\akannangar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\akannangar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akannangar\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\akannangar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\akannangar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\akannangar\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\akannangar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akannangar\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\akannangar\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\akannangar\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\akannangar\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\akannangar\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\akannangar\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\akannangar\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\akannangar\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\akannangar\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\akannangar\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\akannangar\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\akannangar\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\akannangar\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\akannangar\.m2\repository\io\rest-assured\json-schema-validator\4.1.2\json-schema-validator-4.1.2.jar;C:\Users\akannangar\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\akannangar\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\akannangar\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\akannangar\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\akannangar\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\akannangar\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\akannangar\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\akannangar\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\akannangar\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\akannangar\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\akannangar\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\akannangar\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\akannangar\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\akannangar\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akannangar\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\akannangar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.0\jackson-databind-2.10.0.jar;C:\Users\akannangar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.0\jackson-annotations-2.10.0.jar;C:\Users\akannangar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.0\jackson-core-2.10.0.jar;C:\Users\akannangar\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\akannangar\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\akannangar\.m2\repository\org\apache\logging\log4j\log4j-api\2.5\log4j-api-2.5.jar;C:\Users\akannangar\.m2\repository\org\apache\logging\log4j\log4j-core\2.5\log4j-core-2.5.jar;C:\Users\akannangar\.m2\repository\io\qameta\allure\allure-rest-assured\2.14.0\allure-rest-assured-2.14.0.jar;C:\Users\akannangar\.m2\repository\io\qameta\allure\allure-attachments\2.14.0\allure-attachments-2.14.0.jar;C:\Users\akannangar\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\akannangar\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\akannangar\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\akannangar\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\akannangar\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\akannangar\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\akannangar\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\akannangar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\akannangar\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\testng\lib\jcommander-1.27.jar
+java.vm.vendor=JetBrains s.r.o
+sun.arch.data.model=64
+idea.test.cyclic.buffer.size=1048576
+user.variant=
+java.vendor.url=https://www.jetbrains.com/
+user.timezone=Asia/Colombo
+os.name=Windows 10
+java.vm.specification.version=11
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.boot.library.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\jbr\bin
+sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket65051 @w@C:\Users\akannangar\AppData\Local\Temp\2\idea_working_dirs_testng.tmp -temp C:\Users\akannangar\AppData\Local\Temp\2\idea_testng.tmp
+jdk.debug=release
+sun.cpu.endian=little
+user.home=C:\Users\akannangar
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2019-10-15
+java.home=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\jbr
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+user.script=
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=11.0.5+10-b520.30
+user.name=akannangar
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.url.bug=https://youtrack.jetbrains.com
+java.io.tmpdir=C:\Users\AKANNA~1\AppData\Local\Temp\2\
+java.version=11.0.5
+user.dir=C:\Users\akannangar\Desktop\git\101_digital_api
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+sun.os.patch.level=
+java.library.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-hotspot\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\IcedTeaWeb\WebStart\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\akannangar\AppData\Local\Microsoft\WindowsApps;C:\Users\akannangar\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\bin;C:\Users\akannangar\AppData\Local\GitHubDesktop\bin;C:\Program Files\maven\apache-maven-3.6.3\bin;C:\Users\akannangar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akannangar\AppData\Roaming\npm;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;.
+java.vendor=JetBrains s.r.o
+java.vm.info=mixed mode, sharing
+java.vm.version=11.0.5+10-b520.30
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+Empty
