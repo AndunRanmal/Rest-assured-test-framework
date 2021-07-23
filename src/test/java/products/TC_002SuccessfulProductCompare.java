@@ -20,14 +20,14 @@ import java.util.Set;
 
 import static org.testng.Assert.assertEquals;
 
-public class SuccessfulProductCompare001 extends ApiBaseTest {
+public class TC_002SuccessfulProductCompare extends ApiBaseTest {
     private static final String COUNTRY_CODE = "GBR";
     private ValidatableResponse response;
     private Object[][] testData;
     private CompareProductQueryParamsRequest searchQueryParams;
 
     @Test
-    public void ProductCompare001() throws IOException {
+    public void TC_001ProductCompare() throws IOException {
         initTestData();
         sendRequestToApi();
         checkStatusCode();

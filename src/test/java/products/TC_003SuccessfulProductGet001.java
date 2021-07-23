@@ -4,7 +4,7 @@ import enums.ProductCategories;
 import io.qameta.allure.Step;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.ValidatableResponse;
-import models.products.searchProduct.request.GetProductsQueryParamsRequest;
+import models.products.searchProduct.request.GetProductDetailsQueryParamRequest;
 import org.testng.annotations.Test;
 import services.ProductApiService;
 
@@ -12,14 +12,14 @@ import java.net.HttpURLConnection;
 
 import static org.testng.Assert.assertEquals;
 
-public class UnsuccessfulProductSearchWithoutProductCategory {
-    private static final String COUNTRY_CODE = "AUS";
+public class TC_003SuccessfulProductGet001 {
+    private static final String COUNTRY_CODE = "GBR";
     private ValidatableResponse response;
-    private GetProductsQueryParamsRequest searchQueryParams;
+    private GetProductDetailsQueryParamRequest searchQueryParams;
     private Object[][] testData;
 
     @Test
-    public void ProductSearch002() {
+    public void ProductGet001() {
         initTestData();
         sendRequestToApi();
         checkStatusCode();
@@ -28,25 +28,26 @@ public class UnsuccessfulProductSearchWithoutProductCategory {
 
     @Step
     private void initTestData() {
-        searchQueryParams = new GetProductsQueryParamsRequest()
-                .setCountryCode(COUNTRY_CODE)
-                .setPageSize(10)
-                .setPageNum(1);
+        searchQueryParams = new GetProductDetailsQueryParamRequest()
+                .setProductId("BBLT")
+                .setBankId("e7df9035-ef15-488c-8b48-6cd0f9bde9d6")
+                .setProductCategory(ProductCategories.BUSINESS_LOANS.getProductCategory())
+                .setCountryCode(COUNTRY_CODE);
     }
 
     @Step
     public void sendRequestToApi() {
-        response = new ProductApiService().getProducts(searchQueryParams);
+        response = new ProductApiService().getProductDetails(searchQueryParams);
     }
 
     @Step
     private void checkStatusCode() {
-        response.statusCode(HttpURLConnection.HTTP_INTERNAL_ERROR);
+        response.statusCode(HttpURLConnection.HTTP_OK);
     }
 
     @Step
     private void checkResponseBody() {
         JsonPath jsonPathEvaluator = response.extract().body().jsonPath();
-        assertEquals(jsonPathEvaluator.get("errors[0].message"), "Something went wrong");
+        assertEquals(jsonPathEvaluator.get("data.Brand[0].BrandName"), "Barclays");
     }
 }
